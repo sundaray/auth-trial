@@ -11,8 +11,6 @@ const Header = ({ history }) => {
   const logoutSubmitHandler = () => {
     dispatch(logout());
     localStorage.removeItem("loggedInUser");
-    window.location = "/login";
-    // history.push("/login");
   };
 
   return (

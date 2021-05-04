@@ -7,20 +7,6 @@ const initialState = {
   error: null,
 };
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 export const registerUser = createAsyncThunk(
   "register/registerUser",
   async (registrationFormData, { rejectWithValue }) => {
@@ -35,16 +21,6 @@ export const registerUser = createAsyncThunk(
     }
   }
 );
-
-
-
-
-
-
-
-
-
-
 
 export const registerSlice = createSlice({
   name: "register",
